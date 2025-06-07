@@ -1,0 +1,12 @@
+.home {
+    display: flex;
+    flex-direction: row; /* İçeriği yatay olarak hizalamak için row */
+    height: 100vh; /* Tüm görünüm yüksekliği */
+  }
+  
+  .home_panelist-wrap {
+    display: flex;
+    flex: 3; /* İçeriğin büyük kısmını kapsar */
+    overflow-y: auto;
+  }
+  

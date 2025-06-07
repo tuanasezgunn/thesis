@@ -1,0 +1,53 @@
+.listbook-format-main {
+    display: grid;
+    grid-template-columns: 80px 1fr 1fr 1fr 1fr 1fr 100px; 
+    gap: 10px;
+    width: 100%;
+    padding: 20px 0px;
+    color: #454545;
+    font-size: 15px;
+    font-weight: 600;
+    align-items: center; 
+    text-align: center; 
+}
+
+.listbook-format {
+    display: grid;
+    grid-template-columns: 80px 1fr 1fr 1fr 1fr 1fr 50px; 
+    gap: 10px;
+    align-items: center;
+}
+
+.listbook-book-icon {
+    height: 50px; 
+    width: auto;
+    object-fit: contain; 
+    justify-self: center; 
+}
+
+.listbook-remove-icon {
+    cursor: pointer;
+    margin: auto;
+    display: block;
+    width: 30px;
+    height: 30px;
+    justify-self: center; 
+}
+
+@media (max-width: 800px) {
+    .listbook-format-main,
+    .listbook-format {
+        grid-template-columns: 60px 1fr 1fr 1fr 1fr 1fr 40px;
+        font-size: 12px;
+        gap: 8px;
+    }
+
+    .listbook-book-icon {
+        height: 40px; 
+    }
+
+    .listbook-remove-icon {
+        width: 25px;
+        height: 25px;
+    }
+}

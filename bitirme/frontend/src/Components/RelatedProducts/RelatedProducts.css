@@ -1,0 +1,20 @@
+.relatedproducts {
+    margin: 20px;
+  }
+  
+  .relatedproducts h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .relatedproducts-items {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .relatedproducts p {
+    font-size: 18px;
+    color: #555;
+  }
+  
